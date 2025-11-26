@@ -223,31 +223,11 @@ body {
     .logo {
         font-size: 18px;
     }
-    
-    .mobile-menu-btn {
-        display: flex;
-    }
-    
-    .nav {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: white;
-        flex-direction: column;
-        padding: 20px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        display: none;
-    }
-    
-    .nav.active {
-        display: flex;
-    }
-    
+  
     .nav a {
-        padding: 12px;
-        text-align: center;
+        padding: 8px 12px; 
         border-radius: 5px;
+        font-size: 14px; 
     }
     
     .user-info .username {
@@ -292,6 +272,15 @@ body {
     
     .logo {
         font-size: 16px;
+    }
+    
+    .nav {
+        gap: 10px; 
+    }
+    
+    .nav a {
+        padding: 6px 10px; 
+        font-size: 13px; 
     }
     
     .content-block {
@@ -347,4 +336,3 @@ body {
     .photo-item img {
         height: 180px;
     }
-}
